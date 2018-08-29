@@ -12,110 +12,105 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Workers
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/workers/master/_listings/data-gov/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Data.gov API Get Workers Jobs
-  x-api-slug: data-gov-api
+- name: Data.gov API - Get Workers Jobs
+  x-api-slug: workersjobs-get
   description: List all scheduled jobs
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///workers/jobs/
-  tags: Workers, Jobs
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/workers/master/_listings/data-gov/workersjobs-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/workers/master/_listings/data-gov/workersjobs-get-openapi.md
-- name: Data.gov API Add Workers Jobs
-  x-api-slug: data-gov-api
+- name: Data.gov API - Add Workers Jobs
+  x-api-slug: workersjobs-post
   description: Create a new scheduled job
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///workers/jobs/
-  tags: Workers, Jobs
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/workers/master/_listings/data-gov/workersjobs-post-openapi.md
-- name: Data.gov API Get Workers Jobs Schedulables
-  x-api-slug: data-gov-api
+- name: Data.gov API - Get Workers Jobs Schedulables
+  x-api-slug: workersjobsschedulables-get
   description: List all schedulable jobs
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///workers/jobs/schedulables
-  tags: Workers, Jobs, Schedulables
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/workers/master/_listings/data-gov/workersjobsschedulables-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/workers/master/_listings/data-gov/workersjobsschedulables-get-openapi.md
-- name: Data.gov API Delete Workers Jobs
-  x-api-slug: data-gov-api
+- name: Data.gov API - Delete Workers Jobs
+  x-api-slug: workersjobsid-delete
   description: Delete a single scheduled job
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///workers/jobs/{id}
-  tags: Workers, Jobs
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/workers/master/_listings/data-gov/workersjobsid-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/workers/master/_listings/data-gov/workersjobsid-delete-openapi.md
-- name: Data.gov API Get Workers Jobs
-  x-api-slug: data-gov-api
+- name: Data.gov API - Get Workers Jobs
+  x-api-slug: workersjobsid-get
   description: Fetch a single scheduled job
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///workers/jobs/{id}
-  tags: Workers, Jobs
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/workers/master/_listings/data-gov/workersjobsid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/workers/master/_listings/data-gov/workersjobsid-get-openapi.md
-- name: Data.gov API Put Workers Jobs
-  x-api-slug: data-gov-api
+- name: Data.gov API - Put Workers Jobs
+  x-api-slug: workersjobsid-put
   description: Update a single scheduled job
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///workers/jobs/{id}
-  tags: Workers, Jobs
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/workers/master/_listings/data-gov/workersjobsid-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/workers/master/_listings/data-gov/workersjobsid-put-openapi.md
-- name: Data.gov API Get Workers Tasks
-  x-api-slug: data-gov-api
+- name: Data.gov API - Get Workers Tasks
+  x-api-slug: workerstasksid-get
   description: Get a tasks status given its ID
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3///workers/tasks/{id}
-  tags: Workers, Tasks
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/workers/master/_listings/data-gov/workerstasksid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/workers/master/_listings/data-gov/workerstasksid-get-openapi.md
-- name: Data.gov API
-  x-api-slug: data-gov-api
-  description: data.gov is a U.S. government website launched in late May 2009 by
-    the then Federal Chief Information Officer (CIO) of the United States, Vivek Kundra.
-    According to its website, The purpose of data.gov is to increase public access
-    to high value, machine readable datasets generated by the Executive Branch of
-    the Federal Government. The site seeks to become a repository for all the information
-    the government collects. The site would publish to the public any data that is
-    not private or restricted for national security reasons.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
-  humanURL: http://data.gov/
-  baseURL: https://catalog.data.gov//api/3/
-  tags: Workers
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/workers/master/_listings/data-gov/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://danske.bank.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://data.gov.stack.network
 - type: x-blog
   url: https://www.data.gov/meta/
 - type: x-blog-rss
